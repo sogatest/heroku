@@ -1,5 +1,5 @@
 <?
-echo 'phpï¿½Ìƒeï¿½Xï¿½gï¿½Å‚ï¿½ï¿½B<br>';
+echo 'php ƒeƒXƒg<br>';
 $dbinfo = parse_url(getenv('DATABASE_URL'));
 $dsn = 'pgsql:host=' . $dbinfo['host'] . ';dbname=' . substr($dbinfo['path'], 1);
 $pdo = new PDO($dsn, $dbinfo['user'], $dbinfo['pass']);
